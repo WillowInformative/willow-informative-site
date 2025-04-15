@@ -26,25 +26,17 @@
       margin: 0 15px;
       font-weight: bold;
     }
-    .hero {
-      text-align: center;
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
       background-color: #fff;
-      padding: 50px 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
-    .hero img {
-      max-width: 300px;
-      margin-bottom: 20px;
-    }
-    .overview {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 40px 20px;
-      background-color: #fff;
-      text-align: center;
-    }
-    .overview p {
-      font-size: 1.1em;
-      line-height: 1.6;
+    section h2 {
+      border-bottom: 2px solid #d4af37;
+      padding-bottom: 10px;
     }
     footer {
       background-color: #1f3d2b;
@@ -53,27 +45,50 @@
       padding: 20px;
       margin-top: 40px;
     }
+    .logo {
+      max-width: 300px;
+      margin: 20px auto;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Willow Informative Services</h1>
+    <!-- 🔽 Edit this tagline -->
     <p><em>Together we can do great things</em></p>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Capabilities</a>
-      <a href="#">Contact</a>
+      <a href="#about">About</a>
+      <a href="#capabilities">Capabilities</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <section class="hero">
+  <section class="logo" style="text-align:center;">
     <img src="WIS.png" alt="Willow Informative Services logo">
-    <h2>Strategic Solutions for Government and Commercial Clients</h2>
   </section>
 
-  <section class="overview">
-    <p><strong>Willow Informative Services</strong> is a veteran-owned consulting firm providing strategic advisory, program management, and operational support to government and commercial clients. With deep expertise in defense, intelligence, and mission-driven environments, we deliver tailored, data-informed solutions that drive clarity, impact, and long-term success. We partner closely with clients to solve complex challenges through collaboration, agility, and integrity.</p>
+  <section id="about">
+    <h2>About Us</h2>
+    <!-- 🔽 Update your About section here -->
+    <p>Willow Informative Services is a veteran-owned consulting firm providing strategic advisory, program management, and operational support to government and commercial clients. With deep expertise in defense, intelligence, and mission-driven environments, we deliver tailored, data-informed solutions that drive clarity, impact, and long-term success. We partner closely with clients to solve complex challenges through collaboration, agility, and integrity.</p>
+  </section>
+
+  <section id="capabilities">
+    <h2>Capabilities</h2>
+    <!-- 🔽 List or update your services below -->
+    <ul>
+      <li>Strategic Advisory & Leadership Support</li>
+      <li>Program & Portfolio Management</li>
+      <li>Enterprise Quality & Compliance</li>
+      <li>Cybersecurity & Risk Mitigation Planning</li>
+      <li>Defense & Intelligence Operations Support</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <!-- 🔽 Update your preferred contact method below -->
+    <p>Get in touch: <a href="mailto:info@willowinformative.com">info@willowinformative.com</a></p>
   </section>
 
   <footer>
